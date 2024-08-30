@@ -1,0 +1,16 @@
+live_config_reload = true
+
+import = ["~/.config/alacritty/themes/rose-pine.toml"]
+
+[window]
+padding = { x = 5, y = 6 }
+decorations = "None"
+opacity = 0.8
+startup_mode = "Maximized"
+
+[font]
+normal = { family = "JetBrainsMono Nerd Font", style = "SemiBold"}
+bold = { family = "JetBrainsMono Nerd Font", style = "Bold"}
+italic = { family = "JetBrainsMono Nerd Font", style = "Italic"}
+bold_italic = { family = "JetBrainsMono Nerd Font", style = "BoldItalic"}
+size = 13

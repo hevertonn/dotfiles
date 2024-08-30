@@ -1,0 +1,58 @@
+* {
+    border: none;
+    border-radius: 0;
+    font-family: "JetBransMono Nerd Font";
+    font-size: 14px;
+    font-weight: bold;
+}
+
+window#waybar {
+    background: rgba(25, 23, 36, 0.4);
+    color: #e0def4;
+}
+
+#workspaces button {
+    padding: 0 5px;
+    background: transparent;
+    color: white;
+    border-top: 2px solid transparent;
+}
+
+#workspaces button.focused {
+    color: #c9545d;
+    border-top: 2px solid #c9545d;
+}
+
+#clock, #cpu, #memory, #network, #pulseaudio, #power-profiles-daemon {
+    padding: 0 5px;
+    margin: 0 3px;
+}
+
+#clock {
+    margin-top: 3px;
+    margin-right: 12px;
+}
+
+#window {
+    margin-top: 3px;
+    margin-left: 12px;
+}
+
+#cpu {
+}
+
+#memory {
+}
+
+#network {
+}
+
+#network.disconnected {
+    background: #f53c3c;
+}
+
+#pulseaudio {
+}
+
+#pulseaudio.muted {
+}
