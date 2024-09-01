@@ -14,7 +14,7 @@
     "label" : "suspend",
     "action" : "systemctl suspend",
     "text" : "Suspend",
-    "keybind" : "s"
+    "keybind" : "u"
 }
 {
     "label" : "reboot",
