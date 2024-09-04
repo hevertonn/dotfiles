@@ -33,7 +33,6 @@
   border-radius: 8px;
   background-color: #191724;
   color: #e0def4;
-  border: 1px solid #6e6a86;
 }
 
 .floating-notifications.background
@@ -42,13 +41,6 @@
   .notification {
   padding: 0.5rem;
   border-radius: 8px;
-}
-
-.floating-notifications.background
-  .notification-row
-  .notification-background
-  .notification.critical {
-  border: 1px solid #eb6f92;
 }
 
 .floating-notifications.background
@@ -91,7 +83,6 @@
   border-radius: 8px;
   color: #e0def4;
   background-color: #1f1d2e;
-  border: 1px solid #6e6a86;
 }
 
 .floating-notifications.background
@@ -145,24 +136,21 @@
   background-color: #191724;
   color: #e0def4;
   padding: 1rem;
-  border: 1px solid #6e6a86;
 }
 
 .control-center .widget-title {
-  color: #ebbcba;
+  color: #e0def4;
   font-weight: bold;
 }
 
 .control-center .widget-title button {
   border-radius: 8px;
   color: #e0def4;
-  background-color: #1f1d2e;
-  border: 1px solid #6e6a86;
   padding: 0.5rem;
 }
 
 .control-center .widget-title button:hover {
-  background-color: #26233a;
+  background-color: #1f1d2e;
 }
 
 .control-center .widget-title button:active {
@@ -174,7 +162,6 @@
   margin: 0.5rem 0;
   background-color: #1f1d2e;
   color: #e0def4;
-  border: 1px solid #6e6a86;
 }
 
 .control-center .notification-row .notification-background .notification {
@@ -185,16 +172,10 @@
 .control-center
   .notification-row
   .notification-background
-  .notification.critical {
-  border: 1px solid #eb6f92;
-}
-
-.control-center
-  .notification-row
-  .notification-background
   .notification
   .notification-content {
   color: #e0def4;
+  margin-right: 35px;
 }
 
 .control-center
@@ -237,7 +218,6 @@
   border-radius: 8px;
   color: #e0def4;
   background-color: #1f1d2e;
-  border: 1px solid #6e6a86;
 }
 
 .control-center
@@ -319,11 +299,10 @@ trough {
 .widget-dnd > switch {
   border-radius: 8px;
   background: #26233a;
-  border: 1px solid #6e6a86;
 }
 
 .widget-dnd > switch:checked slider {
-  background: #31748f;
+  background: #c4a7e7;
 }
 
 .widget-dnd > switch slider {
