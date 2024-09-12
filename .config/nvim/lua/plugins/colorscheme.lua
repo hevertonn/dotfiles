@@ -2,11 +2,6 @@ return {
   {
     "rose-pine/nvim",
     name = "rose-pine",
-    opts = {
-      styles = {
-        transparency = true,
-      },
-    },
   },
 
   {
