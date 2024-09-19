@@ -4,18 +4,16 @@
     font-family: "JetBransMono Nerd Font";
     font-size: 14px;
     font-weight: bold;
+    color: #e0def4;
 }
 
 window#waybar {
     background: #191724;
-    color: #e0def4;
 }
 
 #workspaces button {
     padding: 0 5px;
     background: transparent;
-    color: white;
-    border-top: 2px solid transparent;
 }
 
 #workspaces button.focused {
