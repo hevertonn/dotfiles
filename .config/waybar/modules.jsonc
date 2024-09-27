@@ -54,7 +54,7 @@
       "car": "",
       "default": ["", "", ""]
     },
-    "on-click": "/usr/bin/python3.12 ~/.config/waybar/change_shink.py"
+    "on-click": "/usr/bin/bash ~/dotfiles/scripts/change_sink.sh"
   },
   "custom/notification": {
     "tooltip": false,
