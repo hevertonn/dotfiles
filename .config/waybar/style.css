@@ -39,21 +39,6 @@ window#waybar {
     margin-left: 15px;
 }
 
-#cpu {
-}
-
-#memory {
-}
-
-#network {
-}
-
 #network.disconnected {
-    background: #f53c3c;
-}
-
-#pulseaudio {
-}
-
-#pulseaudio.muted {
+    background: #eb6f92;
 }

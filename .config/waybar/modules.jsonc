@@ -3,14 +3,15 @@
     "format": "{icon}",
     "format-icons": {
 		  "active": "",
-		  "default": ""
+      "empty": "",
+		  "default": ""
 	  },
     "persistent-workspaces": {
       "*": 10,
     }
   },
   "clock": {
-    "format-alt": "{:%Y-%m-%d}",
+    "format-alt": "{:%d-%m-%Y}",
     "tooltip": false
   },
   "cpu": {
@@ -22,7 +23,6 @@
   },
   "power-profiles-daemon": {
     "format": "{icon}",
-    "tooltip-format": "Power profile: {profile}\nDriver: {driver}",
     "tooltip": false,
     "format-icons": {
       "default": "",

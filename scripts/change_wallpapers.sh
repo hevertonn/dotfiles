@@ -1,4 +1,4 @@
-WALLPAPERS_FOLDER=~/Pictures/Wallpapers
+WALLPAPERS_FOLDER=/home/heverton/Pictures/Wallpapers
 HYPRPAPER_CONFIG=~/.config/hypr/hyprpaper.conf
 
 wallpapers=$(ls -1 $WALLPAPERS_FOLDER | tr '\n' ',')
