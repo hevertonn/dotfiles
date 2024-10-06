@@ -1,0 +1,13 @@
+theme = "default"
+
+show = [
+  "Distribution",
+  "Kernel",
+  "WindowManager",
+  "Packages",
+  "Terminal",
+  "Shell",
+  "Uptime",
+  "ProcessorLoad",
+  "Memory",
+]

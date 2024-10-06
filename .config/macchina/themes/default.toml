@@ -1,0 +1,13 @@
+separator = "->"
+separator_color = "#ebbcba"
+
+[palette]
+visible = true
+
+[bar]
+glyph = "o"
+hide_delimiters = true
+visible = true
+
+[custom_ascii]
+path = "~/.config/macchina/ascii/arch_linux"
