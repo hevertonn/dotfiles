@@ -21,7 +21,7 @@ configuration {
 
   foreground: @fgd;
   background: @bg;
-  active-background: @grn;
+  active-background: @pur;
   urgent-background: @red;
 
   selected-background: @active-background;
@@ -87,7 +87,7 @@ configuration {
 
 #element.selected.normal {
   background-color: @selected-background;
-  text-color:       @foreground;
+  text-color:       @background;
 }
 
 #element.selected.urgent {
@@ -145,13 +145,13 @@ configuration {
 
 #entry {
   spacing:    0;
-  text-color: @fgd;
+  text-color: @foreground;
   placeholder: "";
 }
 
 #prompt {
   spacing:    0;
-  text-color: @fgd;
+  text-color: @foreground;
 }
 
 #inputbar {
@@ -162,5 +162,5 @@ configuration {
   expand:     false;
   str:        ":";
   margin:     0px 0.3em 0em 0em;
-  text-color: @fgd;
+  text-color: @foreground;
 }

@@ -26,16 +26,11 @@ window#waybar {
     margin: 0 4px;
 }
 
-#clock {
-    margin-top: 3px;
-}
-
 #custom-notification {
     margin-right: 15px;
 }
 
 #window {
-    margin-top: 3px;
     margin-left: 15px;
 }
 

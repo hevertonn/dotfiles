@@ -11,7 +11,7 @@ button {
   font-family: "JetBrainsMono Nerd Font";
   font-size: 18px;
   color: #e0def4;
-  border: none;
+  border: 2px solid #e0def4;
   border-radius: 8px;
 	background-color: #191724;
 	background-repeat: no-repeat;
