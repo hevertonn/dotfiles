@@ -1,6 +1,6 @@
 {
     "label" : "logout",
-    "action" : "loginctl kill-user $USER",
+    "action" : "loginctl kill-session $XDG_SESSION_ID",
     "text" : "Logout",
     "keybind" : "l"
 }
