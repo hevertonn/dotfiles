@@ -2,12 +2,12 @@
   "hyprland/workspaces": {
     "format": "{icon}",
     "format-icons": {
-		  "active": "",
+      "active": "",
       "empty": "",
-		  "default": ""
-	  },
+      "default": ""
+    },
     "persistent-workspaces": {
-      "*": 10,
+      "*": 10
     }
   },
   "clock": {
@@ -36,7 +36,7 @@
     "format-ethernet": "{ipaddr}/{cidr} ",
     "tooltip-format": "{ifname} via {gwaddr} ",
     "format-linked": "{ifname} (No IP) ",
-    "format-disconnected": "Disconnected ⚠",
+    "format-disconnected": "Disconnected ⚠"
   },
   "pulseaudio": {
     "format": "{volume}% {icon}",
@@ -52,7 +52,11 @@
       "phone": "",
       "portable": "",
       "car": "",
-      "default": ["", "", ""]
+      "default": [
+        "",
+        "",
+        ""
+      ]
     },
     "on-click": "/usr/bin/bash ~/dotfiles/scripts/change_sink.sh"
   },
@@ -70,10 +74,10 @@
       "dnd-inhibited-none": ""
     },
     "return-type": "json",
-      "exec-if": "which swaync-client",
-      "exec": "swaync-client -swb",
-      "on-click": "swaync-client -t -sw",
-      "on-click-right": "swaync-client -d -sw",
-      "escape": true
-  },
+    "exec-if": "which swaync-client",
+    "exec": "swaync-client -swb",
+    "on-click": "swaync-client -t -sw",
+    "on-click-right": "swaync-client -d -sw",
+    "escape": true
+  }
 }

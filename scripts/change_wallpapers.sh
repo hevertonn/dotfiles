@@ -11,6 +11,7 @@ ramdom_wallpaper=$(($RANDOM % length_wallpaper_array + 1))
 
 printf "preload = %s%s\n" "$WALLPAPERS_FOLDER/" "${wallpapers_array[ramdom_wallpaper]}" >$HYPRPAPER_CONFIG
 printf "wallpaper = , %s%s\n" "$WALLPAPERS_FOLDER/" "${wallpapers_array[ramdom_wallpaper]}" >>$HYPRPAPER_CONFIG
+echo "splash = false" >>$HYPRPAPER_CONFIG
 
 killall hyprpaper
 hyprpaper &
