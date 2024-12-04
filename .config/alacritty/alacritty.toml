@@ -8,8 +8,8 @@ decorations = "None"
 startup_mode = "Maximized"
 
 [font]
-normal = { family = "JetBrainsMono Nerd Font", style = "SemiBold" }
-bold = { family = "JetBrainsMono Nerd Font", style = "Bold" }
-italic = { family = "JetBrainsMono Nerd Font", style = "Italic" }
-bold_italic = { family = "JetBrainsMono Nerd Font", style = "BoldItalic" }
-size = 13
+normal = { family = "ZedMono Nerd Font", style = "SemiBold" }
+bold = { family = "ZedMono Nerd Font", style = "Bold" }
+italic = { family = "ZedMono Nerd Font", style = "Italic" }
+bold_italic = { family = "ZedMono Nerd Font", style = "BoldItalic" }
+size = 13.5
