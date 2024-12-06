@@ -18,7 +18,7 @@
 }
 {
     "label" : "suspend",
-    "action" : "systemctl suspend",
+    "action" : "hyprlock & disown && systemctl suspend",
     "text" : "Suspend",
     "keybind" : "u"
 }
